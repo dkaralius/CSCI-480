@@ -1,15 +1,15 @@
 #
-# PROGRAM:    assign2
+# PROGRAM:    assign3
 # PROGRAMMER: Dominykas Karalius
 # ZID:        Z1809478
-# DATE:       09.16.2019
+# DATE:       09.26.2019
 #
 
 CCFLAGS = -Wall
 
-Assign2: assign2.cc
-	g++ $(CCFLAGS) assign2.cc -o Assign2
+Assign3: assign3.cc
+	g++ $(CCFLAGS) assign3.cc -o Assign3
 
 clean:
-	- rm Assign2
+	- rm Assign3
 
